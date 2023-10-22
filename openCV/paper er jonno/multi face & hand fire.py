@@ -60,7 +60,7 @@ while True:
                 y = int(index_finger_tip.y * frame.shape[0])
 
                 # Overlay the fire image on the frame at the index finger tip location
-                overlay = cv2.resize(fire_img, (50, 50))  # Resize the fire image to desired size
+                overlay = cv2.resize(fire_img, (200, 150))  # Resize the fire image to desired size
                 alpha = overlay[:, :, 3] / 255.0  # Get the alpha channel values
                 h, w = overlay.shape[:2]  # Get the height and width of the overlay image
 

@@ -5,7 +5,7 @@ import numpy as np
 pose_net = cv2.dnn.readNetFromTensorflow('pose_estimation_model.pb')
 
 # Create a VideoCapture object for video input
-cap = cv2.VideoCapture("2.mp4")
+cap = cv2.VideoCapture(0)
 
 while True:
     ret, img = cap.read()

@@ -13,7 +13,7 @@ cap = cv2.VideoCapture(0)
 face_detection = mp_face_detection.FaceDetection()
 
 # Initialize hand landmark detection
-hands = mp_hands.Hands(max_num_hands=2)
+hands = mp_hands.Hands(max_num_hands=20)
 
 # Define the maximum distance between thumb_cmc and pinky_tip for snap detection
 MAX_DISTANCE = 0.1

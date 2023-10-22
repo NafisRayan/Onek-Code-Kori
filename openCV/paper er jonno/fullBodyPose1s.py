@@ -6,7 +6,7 @@ pose = mp_pose.Pose()
 
 mp_drawing = mp.solutions.drawing_utils
 
-cap = cv2.VideoCapture('s.mp4') 
+cap = cv2.VideoCapture(0) 
 
 while True:
     ret, frame = cap.read()
